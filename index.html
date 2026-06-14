@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>倒计时网站</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>倒计时网站</h1>
+
+        <input
+            type="text"
+            id="eventName"
+            placeholder="请输入目标名称">
+
+        <br><br>
+
+        <input
+            type="date"
+            id="targetDate">
+
+        <input
+            type="time"
+            id="targetTime">
+
+        <br><br>
+
+        <button onclick="startCountdown()">
+            开始倒计时
+        </button>
+
+        <h2 id="title"></h2>
+
+        <div id="countdown">
+            请填写目标信息
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
